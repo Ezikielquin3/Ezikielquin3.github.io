@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+    <title>Web Pages that Amuse Me</title>
+  </head>
+  <body>
+    <h1>Web Pages that I find Amusing </h1>
+    <h3>by Ezikiel Quinones</h3>
+    <p> The internet is a great venue for humor and entertainment.  This page contains the sources of the internet that I find entertaining .</p>
+    <p>To see the HTML Code in Chrome, right-click the page and select "View Page Source" or press Ctrl+U.</p>
+    
+    <h2>Vines</h2>
+    <p> When I think of funny videos on the web, this is usually the first one that comes to mind.  Everyone that I knew growing up thought vine was hilarious and this is one of the key videos I remember from that era!  To save you time, this link should skip straight to where the funniness starts in the video</p>
+    <a href="https://www.youtube.com/watch?v=NsLKQTh-Bqo">All those chickens</a>
+    
+    <h2> Entertainment for down time</h2>
+    <p> During my down time I watch this show with my girlfriend over a competition of tattoo artist. I find super interesting how great and how some not-so-great tattoos come out of the artists.  </p>
+    <a href="https://www.paramountplus.com/shows/ink-master/">r/Entertainment</a>
+    
+    <h2> Free time watches </h2>
+    <p>During my down time I watch the office because sometimes dry humor is the best humor. </p>
+    <a href="https://www.paramountplus.com/shows/ink-master/">r/Entertainment</a>  
+  </body>
+</html>
