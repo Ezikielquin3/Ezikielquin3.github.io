@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <title>Homepage</title>
-    <img src= https://content.sportslogos.net/news/2015/05/Bears-header.png alt="UNC" class="img_center"></head>
+    <img class="img-fluid" src= https://content.sportslogos.net/news/2015/05/Bears-header.png alt="UNC">
+    </head>
+    
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFBCZXCZQF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EFBCZXCZQF');
+  </script>
+    
   <body>
-    <h1>My Personal Site</h1>
-    <p>Welcome to my site</p>
-    <ul>
-    <li><a href="inspire.html">Inspire Me</a></li>
-    <li><a href="amuse.html">Amuse Me</a></li>
-    <li><a href="educate.html">Educate and Entertain</a></li>
-    <li><a href="profile.html">Ezikiel Quinones</a></li>
-    </ul>
+    <h1 class="display-1">My Personal Site</h1>
+    <p class="text-sucess display-4">>Welcome to my site</p>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 display-6"><a href="inspire.html">Inspire Me</a></div>
+        <div class="col-lg-3 display-6"><a href="amuse.html">Amuse Me</a></div>
+        <div class="col-lg-3 display-6"><a href="educate.html">Educate and Entertain</a></div>
+        <div class="col-lg-3 display-6"><a href="profile.html">Ezikiel Quinones</a></div>
+      </div>
+    </div>
+    
+    <!--<ul>
+      <li><a href="inspire.html">Inspire Me</a></li>
+      <li><a href="amuse.html">Amuse Me</a></li>
+      <li><a href="educate.html">Educate and Entertain</a></li>
+      <li><a href="profile.html">Ezikiel Quinones</a></li>
+    </ul>-->
   </body>
 </html>
