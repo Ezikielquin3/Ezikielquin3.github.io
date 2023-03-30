@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 50px 0;
+		}
+		.member {
+			flex-basis: 20%;
+			margin: 20px;
+			text-align: center;
+		}
+		.member img {
+			border-radius: 50%;
+			width: 100%;
+			max-width: 200px;
+		}
+		.member .info {
+			margin-top: 10px;
+			text-align: left;
+		}
+		.member .info h3 {
+			margin: 0;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.member .info p {
+			margin: 0;
+			font-size: 14px;
+		}
+		.member .info a {
+			display: block;
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<h1>About Us</h1>
+	<div class="container">
+		<div class="member">
+			<img src="member1.jpg" alt="Team Member 1">
+			<div class="info">
+				<h3>John Doe</h3>
+				<p>Job Title</p>
+				<a href="mailto:john@company.com">john@company.com</a>
+			</div>
+		</div>
+		<div class="member">
+			<img src="member2.jpg" alt="Team Member 2">
+			<div class="info">
+				<h3>Jane Smith</h3>
+				<p>Job Title</p>
+				<a href="mailto:jane@company.com">jane@company.com</a>
+			</div>
+		</div>
+		<div class="member">
+			<img src="member3.jpg" alt="Team Member 3">
+			<div class="info">
+				<h3>Bob Johnson</h3>
+				<p>Job Title</p>
+				<a href="mailto:bob@company.com">bob@company.com</a>
+			</div>
+		</div>
+		<div class="member">
+			<img src="member4.jpg" alt="Team Member 4">
+			<div class="info">
+				<h3>Sarah Lee</h3>
+				<p>Job Title</p>
+				<a href="mailto:sarah@company.com">sarah@company.com</a>
+			</div>
+		</div>
+		<div class="member">
+			<img src="member5.jpg" alt="Team Member 5">
+			<div class="info">
+				<h3>David Kim</h3>
+				<p>Job Title</p>
+				<a href="mailto:david@company.com">david@company.com</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
